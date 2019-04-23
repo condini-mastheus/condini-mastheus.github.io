@@ -11,6 +11,9 @@ const App = () => (
     <Content>
       <Home />
     </Content>
+    <Content>
+      <Home />
+    </Content>
   </Container>
 );
 

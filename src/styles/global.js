@@ -3,7 +3,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,700');
 
   * {
     margin: 0;
@@ -28,16 +28,18 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 export const Container = styled.div`
-  display: flex;
-  flex: 1;
+  width: 100%;
   height: 100%;
+  position: relative;
 `;
 
 export const Content = styled.div`
-  padding: 20px;
+  padding: 60px;
   display: flex;
   flex: 1;
+  flex-direction: column;
   height: 100%;
+  margin-left: 300px;
 `;
 
 export default GlobalStyles;
